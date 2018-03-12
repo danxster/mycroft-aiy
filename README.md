@@ -38,5 +38,9 @@ These instruction are adapted from https://github.com/shivasiddharth/custom-voic
     <br>replace "play_wav_cmdline": "aplay -Dhw:0,0 %1"
     <br>with    "play_wav_cmdline": "aplay %1",
 
-8. Reboot
+8. Edit auto_run.sh
+    <br>Edit line and set to 0
+    <br>sudo amixer cset numid=3 "0"
+
+9. Reboot
     <br>sudo reboot
