@@ -9,10 +9,10 @@ These instruction are adapted from https://github.com/shivasiddharth/custom-voic
     sudo nano /boot/config.txt
 
     Uncomment the following lines:
-    #dtparam=i2s=on
-    #dtparam=i2c_arm=on
-    #dtparam=spi=on
-    #dtparam=audio=on
+    #dtparam=i2s=on. 
+    #dtparam=i2c_arm=on. 
+    #dtparam=spi=on. 
+    #dtparam=audio=on. 
 
     Save & Exit
     Reboot
