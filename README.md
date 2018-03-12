@@ -9,34 +9,34 @@ These instruction are adapted from https://github.com/shivasiddharth/custom-voic
     sudo nano /boot/config.txt
 
     Uncomment the following lines:
-    #dtparam=i2s=on
-    #dtparam=i2c_arm=on
-    #dtparam=spi=on
-    #dtparam=audio=on
+    <br>#dtparam=i2s=on
+    <br>#dtparam=i2c_arm=on
+    <br>#dtparam=spi=on
+    <br>#dtparam=audio=on
 
     Save & Exit
     Reboot
 
 3. Update raspberry pi kernels (if updating from Jessie):
-    sudo apt-get update
-    sudo apt-get install raspberrypi-kernel
+    <br>sudo apt-get update
+    <br>sudo apt-get install raspberrypi-kernel
 
 4. Reboot
-    sudo reboot
+    <br>sudo reboot
 
 5. Make Audio configuration scripts executable
-    cd /home/pi/mycroft-aiy/audio-config/scripts/
-    sudo chmod +x ./custom-voice-hat.sh
-    sudo chmod +x ./install-i2s.sh
+    <br>cd /home/pi/mycroft-aiy/audio-config/scripts/
+    <br>sudo chmod +x ./custom-voice-hat.sh
+    <br>sudo chmod +x ./install-i2s.sh
 
 6. Run the Executable Configuration scripts
-    sudo ./custom-voice-hat.sh
-    Repeat until you receive .bak rename notification
-    sudo ./install-i2s.sh
+    <br>sudo ./custom-voice-hat.sh
+    <br>Repeat until you receive .bak rename notification
+    <br>sudo ./install-i2s.sh
 
 7. Edit /etc/mycroft/mycroft.conf
-    replace "play_wav_cmdline": "aplay -Dhw:0,0 %1"
-    with    "play_wav_cmdline": "aplay %1",
+    <br>replace "play_wav_cmdline": "aplay -Dhw:0,0 %1"
+    <br>with    "play_wav_cmdline": "aplay %1",
 
 8. Reboot
-    sudo reboot
+    <br>sudo reboot
