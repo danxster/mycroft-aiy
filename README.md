@@ -1,6 +1,6 @@
 # Mycroft-AIY
 
-These instruction are adapted from https://github.com/shivasiddharth/custom-voice-hat, but designed getting Google AIY hardware to work with Mycroft (mycroft.ai) build on Raspberry Pi 3.
+These instruction are adapted from https://github.com/shivasiddharth/custom-voice-hat, but designed getting Google AIY hardware to work with Mycroft (https://mycroft.ai) build on Raspberry Pi 3.
 
 ## Following steps to be completed on the RasPi with Picroft image.
 1. git clone https://github.com/kevinelgan/mycroft-aiy.git
