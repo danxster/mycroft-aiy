@@ -6,7 +6,7 @@ These instruction are adapted from https://github.com/shivasiddharth/custom-voic
 1. git clone https://github.com/kevinelgan/mycroft-aiy.git
 
 2. Turn on i2s support in /boot/config.txt with:
-sudo nano /boot/config.txt
+    sudo nano /boot/config.txt
 
     Uncomment the following lines:
     #dtparam=i2s=on
